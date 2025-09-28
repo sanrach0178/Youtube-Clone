@@ -1,0 +1,150 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    z-index: 100;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.yt-logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.middle-header {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.search {
+    width: 600px;
+    height: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid ;
+    padding-left: 20px;
+    font-size: 15px;
+
+    @media (max-width: 1500px) {
+        width: 400px;
+    }
+    @media (max-width: 1000px) {
+        width: 200px;
+    }
+    @media (max-width: 600px) {
+        width: 100px;
+    }
+
+}
+
+
+.search-background {
+    width: 70px;
+    height: 43px;
+    margin-left: -30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid ;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+    margin-left:-50px;
+    cursor: pointer;
+}
+
+.mic-button {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    left: 0px;
+    cursor: pointer;
+}
+
+.mic {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 52.5px;
+    z-index: 400;
+    cursor: pointer;
+
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    gap: 20px;
+    right: 10px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.create-setup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+    cursor: pointer;
+
+}
+
+.create-button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    padding-right: 0;
+    padding-left: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.create {
+    margin-right: -33px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.notifications {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
